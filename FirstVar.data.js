@@ -18,7 +18,7 @@ Module.expectedDataFileDownloads++;
     } else {
       throw 'using preloaded data can only be done on a web page or in a web worker';
     }
-    var PACKAGE_NAME = https://dl.dropboxusercontent.com/s/dp8w53e2lmoy56v/FirstVar.data?dl=0';
+    var PACKAGE_NAME = 'https://dl.dropboxusercontent.com/s/dp8w53e2lmoy56v/FirstVar.data?dl=0';
     var REMOTE_PACKAGE_BASE = 'https://dl.dropboxusercontent.com/s/dp8w53e2lmoy56v/FirstVar.data?dl=0';
     if (typeof Module['locateFilePackage'] === 'function' && !Module['locateFile']) {
       Module['locateFile'] = Module['locateFilePackage'];
